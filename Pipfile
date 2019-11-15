@@ -8,6 +8,10 @@ verify_ssl = true
 [packages]
 pandas = "*"
 jupyter = "*"
+scikit-learn = "*"
+spacy = "*"
+en_core_web_md = {file = "https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.0/en_core_web_md-2.2.0.tar.gz"}
+tensorflow = "*"
 
 [requires]
 python_version = "3.7"
